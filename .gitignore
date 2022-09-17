@@ -12,3 +12,5 @@ hack
 *.elf
 *.hxt
 .*
+app/hacktribe_app_backend.py
+*.patch

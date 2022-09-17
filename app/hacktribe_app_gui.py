@@ -27,7 +27,9 @@ class HacktribeAppGUI:
         self.init_gui()
 
 
+
     def init_gui(self):
+
         logging.debug('Initialising GUI')
         
         self.app = QtWidgets.QApplication(sys.argv)
@@ -104,4 +106,10 @@ class QTextEditLogger(logging.Handler):
         self.widget.append(msg)
 
 if __name__ == "__main__":
+#
     main()
+
+
+
+
+
